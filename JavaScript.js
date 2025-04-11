@@ -15,12 +15,21 @@
 //     alert("You don't know?! , It's ECMAScript!")
 // }
 
-//Task#3
-let score = 75;
-let grade = score >= 90 ? 'A' :
-    score >= 80 ? 'B' :
-        score >= 70 ? 'C' :
-            score >= 60 ? 'D' : 'F';
+// //Task#3
+// let score = 75;
+// let grade = score >= 90 ? 'A' :
+//     score >= 80 ? 'B' :
+//         score >= 70 ? 'C' :
+//             score >= 60 ? 'D' : 'F';
 
-console.log("The grade is: ", grade);
+// console.log("The grade is: ", grade);
+
+//Task#4
+let input = prompt('Enter a number please: ');
+if (input > 0)
+    alert('1');
+else if (input < 0)
+    alert('-1');
+else
+    alert('0');
 
