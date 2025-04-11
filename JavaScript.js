@@ -24,12 +24,17 @@
 
 // console.log("The grade is: ", grade);
 
-//Task#4
-let input = prompt('Enter a number please: ');
-if (input > 0)
-    alert('1');
-else if (input < 0)
-    alert('-1');
-else
-    alert('0');
+// //Task#4
+// let input = prompt('Enter a number please: ');
+// if (input > 0)
+//     alert('1');
+// else if (input < 0)
+//     alert('-1');
+// else
+//     alert('0');
+
+//Task#5
+let a = 1, b = 2;
+let result = a + b < 4 ? 'Not enough' : 'A lot';
+alert(result);
 
