@@ -33,8 +33,16 @@
 // else
 //     alert('0');
 
-//Task#5
-let a = 1, b = 2;
-let result = a + b < 4 ? 'Not enough' : 'A lot';
-alert(result);
+// //Task#5
+// let a = 1, b = 2;
+// let result = a + b < 4 ? 'Not enough' : 'A lot';
+// alert(result);
+
+//Task#6
+let login = 'Director';
+let message = login == 'Employee' ? 'Hello' :
+    login == 'Director' ? 'Hello' :
+        login == '' ? 'No login' : '';
+
+alert(message);
 
