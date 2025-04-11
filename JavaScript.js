@@ -38,11 +38,22 @@
 // let result = a + b < 4 ? 'Not enough' : 'A lot';
 // alert(result);
 
-//Task#6
-let login = 'Director';
-let message = login == 'Employee' ? 'Hello' :
-    login == 'Director' ? 'Hello' :
-        login == '' ? 'No login' : '';
+// //Task#6
+// let login = 'Director';
+// let message = login == 'Employee' ? 'Hello' :
+//     login == 'Director' ? 'Hello' :
+//         login == '' ? 'No login' : '';
 
-alert(message);
+// alert(message);
 
+//Task#7
+console.log(false || 'sdf'); //sdf
+console.log(false && ''); //false
+console.log(true || ''); //true
+console.log(true && ''); //''
+console.log(undefined || null); //null
+console.log(undefined || '0' || null); //0
+console.log(undefined && '0' && null); //undefined
+console.log(1 || 0); //1
+console.log(null || 1); //1
+console.log(null || 0 || 1); //1
